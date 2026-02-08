@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 6;
+const MAX_IMAGES = 5;
 
 let play = true;
 let noCount = 0;
@@ -45,11 +45,10 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Enti bey ekkuva chesthunnav",
-    "Oppukooooooooooo😡",
+    "Oppukooooooooooo",
     "Yes chepparaaaaaa",
     "Edchestha nenu",
-    "Anthe le prema ledhu em ledhu:(",
-    "Please oppuko date ki teeskeltha :)"
+    "Yes click cheseyva please:(",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
